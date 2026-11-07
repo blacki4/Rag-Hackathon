@@ -1,0 +1,95 @@
+{
+  "documents": [
+    {
+      "file": "ppu_bylaws_bachelor_ch9_transfer.md",
+      "sha256": "38709cacd648deac1dccd6ec1177ea92234cedaa4a32ec11572806f512a2a913",
+      "pages": 1,
+      "tables": 0,
+      "table_rows": 0,
+      "chars_raw": 3356,
+      "flagged_pages": [],
+      "chunks": 4,
+      "courses": 0,
+      "chunks_by_type": {
+        "regulation_article": 4
+      },
+      "pages_with_chunks": [
+        1
+      ],
+      "pages_without_chunks": [],
+      "warnings": 0
+    },
+    {
+      "file": "PPU_ITCE_Full_Guide.pdf",
+      "sha256": "059ce8c729dd72912406235a7fba7fff4da18c142e1af25c5603aa97178e4590",
+      "pages": 23,
+      "tables": 31,
+      "table_rows": 270,
+      "chars_raw": 20991,
+      "flagged_pages": [],
+      "chunks": 334,
+      "courses": 243,
+      "chunks_by_type": {
+        "section": 33,
+        "table": 31,
+        "table_row": 27,
+        "course": 243
+      },
+      "pages_with_chunks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "pages_without_chunks": [],
+      "warnings": 6
+    },
+    {
+      "file": "ppu_plan_computer_engineering_2025.md",
+      "sha256": "cd43600709e79d51946468796eeef001785ce2a6aafdf33402a77badbfa7337d",
+      "pages": 1,
+      "tables": 0,
+      "table_rows": 0,
+      "chars_raw": 6282,
+      "flagged_pages": [],
+      "chunks": 108,
+      "courses": 99,
+      "chunks_by_type": {
+        "course": 99,
+        "study_plan_group": 9
+      },
+      "pages_with_chunks": [
+        1
+      ],
+      "pages_without_chunks": [],
+      "warnings": 0
+    }
+  ],
+  "vector_store": {
+    "collection": "ppu_itce__intfloat_multilingual_e5_small",
+    "model": "intfloat/multilingual-e5-small",
+    "dim": 384,
+    "stored": 446,
+    "removed_stale": 100,
+    "count_matches_chunks": true
+  }
+}

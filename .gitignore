@@ -1,0 +1,32 @@
+# secrets
+.env
+.env.local
+frontend/.env.local
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# generated / local state
+chroma_db/
+data/cache/
+logs/
+
+# frontend
+frontend/node_modules/
+frontend/.next/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# local tooling
+.claude/
+
+# old practice-project files (fictional sample university), not used by this system
+/data/*.pdf
+/build/
+/src/ingest.py
+/src/retrieve.py
+/eval/run_eval.py
+/eval/questions.json
+/eval/report.md
